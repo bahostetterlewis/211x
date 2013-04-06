@@ -13,7 +13,10 @@ void selectprint(string s)
 {
   ofstream of;
   of.open("output.txt");
-  print(cout, s);
+  //choose where to output by commenting out one or neither of the lines
+  //if you leave them both then they all prints will go to a file && to stdout
+  print(cout, s); //redirect the print to stdout
+  //print (of, s) //redirect the print to the file "output.txt"
 }
 
 int main()
