@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
   }
   else
   {
-   //outother is a convienence variable, it keeps us from needing to cash
+   //outother is a convienence variable, it keeps us from needing to cast
     outother.open(argv[1]); 
     out = &outother;
     /* 
