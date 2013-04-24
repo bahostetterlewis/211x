@@ -3,7 +3,7 @@
 
 using namespace std;
 
-//simple class that allerts when a ctor and dtor are called
+//simple class that alerts when a ctor and dtor are called
 //simple print function to show accessing methods
 class test
 {
